@@ -1,0 +1,28 @@
+football_proj/
+├── data/
+│   ├── images/
+│   │   ├── train/              # Extracted frames from 2 match videos
+│   │   └── val/                # Extracted frames from 1 validation video
+│   ├── labels/
+│   │   ├── train/              # YOLO-format .txt files for each image
+│   │   └── val/
+│   └── football.yaml           # Dataset config for YOLOv8
+│
+├── scripts/
+│   ├── train_yolo.py           # Main training script
+│   ├── extract_frames.py       # Convert video to images
+│   ├── visualize_predictions.py# Visualize detection results on images
+│   ├── convert_annotations.py  # Convert your dataset to YOLO format (if needed)
+│   └── track_players.py        # Optional: apply tracking (e.g. DeepSORT)
+│
+├── models/                     # Folder to save trained weights
+│   └── yolov8n.pt              # Pretrained model (downloaded automatically if missing)
+│
+├── outputs/
+│   ├── predictions/            # Images with predicted boxes
+│   ├── logs/                   # Optional: logs or metrics
+│   └── tracking/               # Optional: tracking output frames or videos
+│
+├── requirements.txt            # Frozen list of all pip packages
+├── README.md                   # Notes/documentation for your project
+└── venv/                       # Virtual environment folder
