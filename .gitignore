@@ -1,6 +1,6 @@
 # Ignore data and output
 data/
-runs/
+# runs/
 *.jpg
 *.png
 *.pt
