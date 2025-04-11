@@ -1,9 +1,0 @@
-0: track_id
-1: frame_number
-2: x (top-left)
-3: y (top-left)
-4: width
-5: height
-6: visibility (1 = visible, 0 = not visible)
-7: object_type_id (like 1 = player, 2 = referee, 3 = ball)
-8: unknown/confidence (likely 1.0)

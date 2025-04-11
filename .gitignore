@@ -3,6 +3,6 @@ data/
 # runs/
 *.jpg
 *.png
-*.pt
+# *.pt
 *.tar.gz
 venv/
