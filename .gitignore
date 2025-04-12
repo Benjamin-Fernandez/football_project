@@ -1,7 +1,7 @@
 # Ignore data and output
 data/
-# runs/
-*.jpg
+runs/track/test
+# *.jpg
 *.png
 # *.pt
 *.tar.gz
